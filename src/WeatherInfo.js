@@ -15,12 +15,12 @@ export default function WeatherInfo(props) {
             </div>
             <div className="row mt-3">
                 <div className="col-6">
-                    <WeatherIcon code={props.data.icon} size={52}/>
+                    <WeatherIcon code={props.data.icon} size={52} />
                     <WeatherTemperature celsius={props.data.temperature} />
                 </div>
                 <div className="col-6">
                     <ul>
-                        <li>humidity: {Math.round(props.data.humidity)} %</li>
+                        <li>Humidity: {Math.round(props.data.humidity)} %</li>
                         <li>Wind: {Math.round(props.data.wind)} km/h</li>
                     </ul>
                 </div>
