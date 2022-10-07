@@ -21,12 +21,12 @@ export default function WeatherIcon(props) {
         "013d": "SNOW",
         "013n": "SNOW",
         "015d": "FOG",
-        "015n": "FOG",
+        "015n": "FOG"
     };
 
     return (
         <ReactAnimatedWeather
-            code={codeMapping[props.code]}
+            code={codeMapping[props.icon]}
             color="#fffff"
             size={props.size}
             anmiate={true}
