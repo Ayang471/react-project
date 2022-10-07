@@ -22,9 +22,7 @@ export default function WeatherIcon(props) {
         "013d": "SNOW",
         "013n": "SNOW",
         "015d": "FOG",
-        "015n": "FOG",
-        "50d": "MIST",
-        "50n": "MIST"
+        "015n": "FOG"
     };
 
     return (
